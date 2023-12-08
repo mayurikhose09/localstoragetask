@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="fetchData()">
+    <div class="container">
+        <form action="">
+            <h1>Student Data</h1>
+            <label for="name" class="text">Name </label>
+            <input type="text" placeholder="Enter Your Name" id="name" required maxlength="12"><br>
+            <label for="" class="text">Email</label>
+            <input type="mail" placeholder="Enter email id" id="email" required><br>
+            <label for="" class="text">Phone</label>
+            <input type="number" placeholder="Enter 10 digit Mobile number" id="phone" required maxlength="10"><br>
+            <label for="" class="text">Message</label>
+            <input type="text" placeholder="Enter the message" id="message" required><br>
+       <button onclick="checkData()">Save</button>
+        </form>
+    </div>
+    <button onclick="dataAdd()" id="remove">Clear All</button>
+    <div class="main" id="demo">
+
+</div>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
